@@ -25,11 +25,13 @@ The UI could easily be moved to the left side of the screen for tablet/desktops,
 
 The default is a "Filter" button on the landing page which brings up a mostly full screen UI for the filters.
 
+![buttons inline](./img/mobile-closed.png)![buttons inline](./img/mobile-open.png)
+
 ## Structure
 
-So far this is the model I came up with while figuring things out: Each buisness should have one or more categories, one or more location tags and one state tag.
+Right now each buisness should have one or more _categories_, one or more location _tags_ and one state _tag_.
 
-As long as we have 3 or more things to filter (Buisness Type, Location and State for now) tag or category not included in the filter script won't appear in the filter. If there were only two it would work automatically when you added a new tag or category in the squarespace wysiwyg editor.
+As long as we have 3 or more things to filter (Buisness Type, Location and State for now) any tag or category not included in the filter script won't be filtered. If there were only two it would work automatically when you added a new tag or category in the squarespace wysiwyg editor. It's annoying, but I couldn't find a reasonable fix.
 
 ### Categories
 
