@@ -2,9 +2,22 @@
 
 ## View
 
-### dropdown
+dropdown
+![dropdown](./img/dropdown.png)
 
-![dropdown view](./img/dropdown.png)
+modern
+![modern](./img/modern.png)
+
+buttons
+![buttons](./img/buttons.png)
+
+buttons inline
+![buttons inline](./img/buttons-inline.png)
+
+buttons round
+![buttons round](./img/buttons-round.png)
+
+breadcrumbs, modern, buttons, buttons-round, buttons-pill, buttons-inline
 
 ###
 
