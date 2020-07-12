@@ -2,7 +2,8 @@
 
 There are a few predesigned styles for the filters UI that might be appropriate: dropdown, modern, buttons, inline buttons, and round buttons. These could be tweaked with custom css if needed.
 
-dropdown
+#### dropdown:
+
 ![dropdown](./img/dropdown.png)
 
 modern
