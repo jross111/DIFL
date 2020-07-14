@@ -1,8 +1,11 @@
 ## Structure
 
-Right now each buisness should have one or more _categories_, one or more location _tags_ and one state _tag_.
+Each buisness should have one or more _categories_, one or more location _tags_ and one state _tag_.
 
 As long as we have 3 or more things to filter (Buisness Type, Location and State for now) any tag or category not included in the filter script won't be filtered. If there were only two it would work automatically when you added a new tag or category in the squarespace wysiwyg editor. It's annoying, but I couldn't find a reasonable fix.
+<br>
+
+_Currently available_:
 
 Type of buisness (category): `"Entertainment, Fitness, Food, Health, Pet Friendly"`
 
