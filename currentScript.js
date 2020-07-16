@@ -3,11 +3,11 @@
 <script>
 window.customFilterSettings = {
     'targets': [{
-        container: '#block-d3c82ac9d662a2119f56',  // "#block-66f1661bd5905df7ab3b" for map test
+        container: '#block-d3c82ac9d662a2119f56',
         items: '.summary-item',
 
         settings: {
-            position: 'left',
+            position: 'top',
             showItemsCount: false,
             filter: {
                 enabled: true,
@@ -17,7 +17,7 @@ window.customFilterSettings = {
                         name: 'Type of Buisness',
                         allLabel: '',
                         allOption: 'All',
-                        allowedOptions: "Entertainment, Fitness, Food, Health, Pet Friendly",
+                        allowedOptions: "Restaurant, Bakery, Cafe, Entertainment, Travel, Bar, Wine Bar, Pet Adoption, Salon, Studio, Gallery, Fitness, Location, Education, Barbershop, Shopping, Fashion",
                         multiple: false,
                         getAttr: 'categories'
                     },
@@ -25,19 +25,19 @@ window.customFilterSettings = {
                         name: 'Location',
                         allLabel: '',
                         allOption: 'All',
-                        allowedOptions: "Brooklyn, Manhattan, Queens, Bronx, Staten Island, Williamsburg, SoHo, Upper West Side, Upper East Side, Harlem, West Village, Lower East Side",
+                        allowedOptions: "Manhattan, Brooklyn, Santa Monica, New Jersey, Los Angeles",
                         multiple: true,
                         getAttr: 'tags'
                     },
-                    {
-                        name: 'State',
-                        allLabel: '',
-                        allOption: 'All', 
-                        allowedOptions: "New York, New Jersey",
-                        multiple: false,
-                        getAttr: 'tags'
+                    // {
+                    //     name: 'State',
+                    //     allLabel: '',
+                    //     allOption: 'All', 
+                    //     allowedOptions: "New York, New Jersey",
+                    //     multiple: false,
+                    //     getAttr: 'tags'
 
-                    }
+                    // }
                 ]
             },
           	
